@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width user-scalable=no">
+      <title>educacion.html</title>
+    </head>
+    <body>
+      <header>
+        <svg width="500" height="120">
+          <image width="200" height="120" xlink:href="img/LogoMRA.svg" />
+        </svg>
+        <h1>Hoja de Vida</h1>
+        <h2>Datos Personales</h2>
+        <h3>Nombres y apellidos</h3>
+         Matilde Ramos Alvarado
+        <h3>Fecha y lugar de nacimiento</h3>
+        15 de marzo de 1984, Tegucigalpa, Francisco Morazán, Honduras.
+      </header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="educacion.html">Educación</a></li>
+          <li><a href="experiencia.html">Experiencia</a></li>
+        </ul>
+      </nav>
+      <section>
+        <h2>Educación</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Año</th>
+              <th>Institución</th>
+              <th>Lugar</th>
+              <th>¿Culminó?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2002-2008</td>
+              <td>Universidad Nacional Autónoma de Honduras</td>
+              <td>Tegucigalpa, Honduras</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>1996-2001</td>
+              <td>Instituto Sagrado Corazón</td>
+              <td>Tegucigalpa, Honduras</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>1990-1995</td>
+              <td>Instituto Sagrado Corazón</td>
+              <td>Tegucigalpa, Honduras</td>
+              <td>Si</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2>Agregar Estudios</h2>
+        <form>
+          <p>
+            <label for="anio"><strong>Año:</strong></label>
+            <br>
+            <Select id="anio" name="anio">
+              <option>2017</option>
+              <option>2016</option>
+              <option>2015</option>
+              <option>2014</option>
+              <option>2013</option>
+              <option>2012</option>
+              <option>2011</option>
+              <option>2010</option>
+              <option>2009</option>
+            </select>
+          </p>
+          <p>
+            <label for="institucion"><strong>Institución:</strong></label>
+            <br>
+            <input id="institucion" type="text" name="institucion" required>
+          </p>
+          <P>
+            <label for="lugar"><strong>Lugar:</strong></label>
+            <br>
+            <textarea  id="lugar" name="lugar" cols="30" rows="3"></textarea>
+          </P>
+          <p><strong>¿Culminó?</strong>
+            <label for="culminosi">Si</label>
+            <input type="radio" id="culminosi" name="culmino">
+            <label for="culminono">No</label>
+            <input type="radio" id="culminono" name="culmino">
+          </p>
+          <p>
+            <input type="submit" value="Enviar">
+          </p>
+        </form>
+      </section>
+      <footer>
+        <h2>Contacto</h2>
+        <ul>
+          <li><strong>Email:</strong><a href="mailto:matty.ramos@gmail.com">matty.ramos@gmail.com</a></li>
+          <li><strong>Teléfono:</strong>504 3303-0313</li>
+          <li><strong>Dirección:</strong>Residencial Ecovivienda, Tegucigalpa, Francisco Morazán, Honduras.</li>
+        </ul>
+      </footer>
+    </body>
+  </html>
